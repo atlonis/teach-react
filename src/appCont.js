@@ -1,10 +1,10 @@
 var React = require('react') ;
 var Menu = require('./appMenu') ;
 
-var container = React.createClass({
+var Container = React.createClass({
   render: function() {
     return (
-		<div  className="container">
+		<div  className="Container">
 			<div  className="cont-logo">
 				<a  className="wrap-logo" href=""><span  className="logo"></span><span  className="logo-text"></span></a>
 			</div>
@@ -14,4 +14,4 @@ var container = React.createClass({
   }
 });
 
-module.exports =  container;
+module.exports =  Container;

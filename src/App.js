@@ -1,11 +1,11 @@
 var React = require('react') ;
-var container = require('./left-header') ;
+var Container = require('./appCont') ;
 
 var App = React.createClass({
   render: function() {
     return (
     	<div  className="wrap">
-    		<container />
+    		<Container />
 			</div>
     );
   }

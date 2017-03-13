@@ -34,7 +34,7 @@ time, mark, audio, video {
 	position: relative;
 }
 
-.container{
+.Container{
 	display: flex;
 	width: 700px;
 	align-items:center;
