@@ -34,7 +34,7 @@ time, mark, audio, video {
 	position: relative;
 }
 
-.container{
+.left-header{
 	display: flex;
 	width: 700px;
 	align-items:center;
@@ -49,14 +49,6 @@ time, mark, audio, video {
 .wrap-logo{
 	height:64px;
 	display: flex;
-	align-items:center;
-}
-
-.menu{
-	font: 16px/16px "Open Sans",Sans-Serif;
-	display: flex;
-	width: 443px;
-	height:64px;
 	align-items:center;
 }
 
@@ -80,24 +72,23 @@ time, mark, audio, video {
 	height:64px;
 	align-items:center;
 }
-
 .list1,
 .list2,
 .list3,
 {
 	margin-right: 9px;
 	height: 40px;
-}
-.list1 a span,
-.list2 a span,
-.list3 a span{
-	display: block;
-	color: white;
-	font-weight: 600;
-	text-shadow: 0px 1px 3px rgba(0,0,0,0.2);
-	padding: 12px 18px;
-}
 
+	a{
+		span{
+			display: block;
+			color: white;
+			font-weight: 600;
+			text-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+			padding: 12px 18px;
+		}
+	}
+}
 .list1{
 	background: rgba(0,0,0,0.08);
 	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.06) inset, 0px 1px 2px 0px rgba(255,255,255,0.1);
@@ -108,28 +99,30 @@ time, mark, audio, video {
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.03);
 	background-color: #Fa42a2;
 	border-radius: 4px;
-}
 
-.pro-button{
-	padding: 10px 18px;
-	display: flex;
-	align-items:center;
-}
+	a{
 
-.icon{
-	padding: 0;
-	background-image: url(https://d107cgb5lgj7br.cloudfront.net/img/icons/nav-icons.png);
-	background-position: 0px -18px;
-	background-size: 136px 58px;
-	width: 29px;
-	height: 20px;
-	display: inline-block;
-}
+		.pro-button{
+			padding: 10px 18px;
+			display: flex;
+			align-items:center;
 
-.pro{
-	padding: 0;
-	color: white;
-	text-shadow: 0px 1px 3px rgba(0,0,0,0.2);
-	font-weight: 600;
-	margin-left:4px;
+			.icon{
+				padding: 0;
+				background-image: url(https://d107cgb5lgj7br.cloudfront.net/img/icons/nav-icons.png);
+				background-position: 0px -18px;
+				background-size: 136px 58px;
+				width: 29px;
+				height: 20px;
+				display: inline-block;
+			}
+			.pro{
+				padding: 0;
+				color: white;
+				text-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+				font-weight: 600;
+				margin-left:4px;
+			}
+		}
+	}
 }
