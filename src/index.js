@@ -4,4 +4,5 @@ var App = require('./App') ;
 import './app.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-console.log(App);
+
+
