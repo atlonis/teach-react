@@ -5,10 +5,10 @@ var Footer = require('./Footer') ;
 var App = React.createClass({
   render: function() {
     return (
-    	<div  >
+    	<div>
   		<Header/>
   		<Footer/>
-			</div>
+  		</div>
     );
   }
 });

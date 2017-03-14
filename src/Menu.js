@@ -3,26 +3,10 @@ var Menuitem = require('./Menuitem') ;
 
 var Menu = React.createClass({
   render: function() {
-  	var links = [
-  	{
-  		title: 'Home',
-  		href:'',
-  		className:'list1'
-  	},
-  	{
-  		title: 'dsad',
-  		href:'',
-  		className:'list2'
-  	},
-  	{
-  		title: 'Сourses',
-  		href:'',
-  		className:'list3'
-  	}
-  	]
+
   	return (
 				<ul className="menu" >
-				  {links.map((item,index)=>{
+				  {this.props.links.map((item,index)=>{
      	  	return	<Menuitem item={item} key={index} />
        	})}
 				 <li className="list4">
