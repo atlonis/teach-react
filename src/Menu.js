@@ -2,8 +2,10 @@ var React = require('react') ;
 var Menuitem = require('./Menuitem') ;
 
 var Menu = React.createClass({
+	propTypes:{
+ links: React.PropTypes.array
+	},
   render: function() {
-
   	return (
 				<ul className="menu" >
 				  {this.props.links.map((item,index)=>{

@@ -2,6 +2,9 @@ var React = require('react') ;
 var Menu = require('./Menu') ;
 
 var Container = React.createClass({
+propTypes:{
+ links: React.PropTypes.array
+	},
 render: function() {
     return (
 		<div  className="Container" >

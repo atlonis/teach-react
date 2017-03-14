@@ -1,7 +1,7 @@
 var React = require('react') ;
 var Container = require('./Container') ;
 
-var header = React.createClass({
+var Header = React.createClass({
   render: function() {
   	var links = [
   	{
@@ -24,4 +24,4 @@ var header = React.createClass({
     	<div className='header'><Container links={links}/></div>
     	)}
   });
-module.exports =  header;
+module.exports =  Header;
