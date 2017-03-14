@@ -3,11 +3,11 @@ var React = require('react') ;
 var Menulist = React.createClass({
   render: function() {
     return (
-      <ul className="menu">
+      <ul className="menu" >
        	{this.props.data.map((item,index)=>{
-     	  	return	<li key={index} className={item.className}><a href={item.href}><span>{item.title}</span></a></li>
+     	  	return	<Menuitem item={item} key={index}/>
        	})}
-<li className="list4">
+       	<li className="list4">
 					<a href="">
 						<span className="pro-button">
 							<span className="icon"></span>
@@ -19,6 +19,16 @@ var Menulist = React.createClass({
 	        	);
 }});
 
+var Menuitem = React.createClass({
+	  render: function() {
+    return (
+    	<li key={this.props.index} className={this.props.item.className}>
+    		<a href={this.props.item.href}>
+    			<span>{this.props.item.title}</span>
+    		</a>
+    	</li>
+    	)
+}})
 
 var Menu = React.createClass({
   render: function() {
@@ -40,8 +50,7 @@ var Menu = React.createClass({
   	}
   	]
   	return (
-
-				<Menulist data={links} />
+				<Menulist data={links}/>
 
   		    );
   }
