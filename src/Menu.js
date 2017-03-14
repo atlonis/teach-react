@@ -1,15 +1,5 @@
 var React = require('react') ;
-
-var Menuitem = React.createClass({
-	  render: function() {
-    return (
-    	<li  className={this.props.item.className}>
-    		<a href={this.props.item.href}>
-    			<span>{this.props.item.title}</span>
-    		</a>
-    	</li>
-    	)
-}})
+var Menuitem = require('./Menuitem') ;
 
 var Menu = React.createClass({
   render: function() {
