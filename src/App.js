@@ -1,5 +1,5 @@
 var React = require('react') ;
-var Container = require('./Containder') ;
+var Container = require('./Container') ;
 
 var App = React.createClass({
   render: function() {
