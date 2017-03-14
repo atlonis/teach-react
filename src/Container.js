@@ -8,7 +8,7 @@ var Container = React.createClass({
 			<div  className="cont-logo">
 				<a  className="wrap-logo" href=""><span  className="logo"></span><span  className="logo-text"></span></a>
 			</div>
-				<Menu  />
+				<Menu />
 		</div>
     );
   }
