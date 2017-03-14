@@ -1,5 +1,5 @@
 var React = require('react') ;
-var Container = require('./Cont') ;
+var Container = require('./Containder') ;
 
 var App = React.createClass({
   render: function() {
@@ -7,7 +7,6 @@ var App = React.createClass({
     	<div  className="wrap">
     		<Container />
 			</div>
-
     );
   }
 });

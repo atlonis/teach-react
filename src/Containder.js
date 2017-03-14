@@ -8,7 +8,7 @@ var Container = React.createClass({
 			<div  className="cont-logo">
 				<a  className="wrap-logo" href=""><span  className="logo"></span><span  className="logo-text"></span></a>
 			</div>
-				<Menu  data={links}/>
+				<Menu  />
 		</div>
     );
   }
@@ -16,20 +16,3 @@ var Container = React.createClass({
 
 module.exports =  Container;
 
-var links = [
-{
-	title: 'Home',
-	href:'',
-	className:'list1'
-},
-{
-	title: 'Сourses',
-	href:'',
-	className:'list2'
-},
-{
-	title: 'Сourses',
-	href:'',
-	className:'list3'
-}
-]
