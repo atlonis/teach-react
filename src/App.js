@@ -1,14 +1,17 @@
 var React = require('react') ;
-var Container = require('./Container') ;
+var Header = require('./Header') ;
+var Footer = require('./Footer') ;
 
 var App = React.createClass({
   render: function() {
     return (
-    	<div  className="wrap">
-    		<Container />
+    	<div  >
+  		<Header/>
+  		<Footer/>
 			</div>
     );
   }
 });
+
 module.exports =  App;
 
