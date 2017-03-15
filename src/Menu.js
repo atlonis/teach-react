@@ -3,7 +3,11 @@ var Menuitem = require('./Menuitem') ;
 
 var Menu = React.createClass({
 	propTypes:{
- links: React.PropTypes.array
+		links: React.PropTypes.arrayOf(React.PropTypes.shape({
+			title:  React.PropTypes.string,
+			href: React.PropTypes.string,
+			className: React.PropTypes.oneOf(['list1','list2','list3'])
+  }))
 	},
   render: function() {
   	return (
