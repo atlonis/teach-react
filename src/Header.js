@@ -24,7 +24,7 @@ var Header = React.createClass({
 	}},
   render: function() {
     return (
-    	<div className='header'><Container links={this.state}/></div>
+    	<div className='header'><Container links={this.state.links}/></div>
     	)}
   });
 module.exports =  Header;

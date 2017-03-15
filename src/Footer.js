@@ -24,7 +24,7 @@ var Footer = React.createClass({
   }},
   render: function() {
     return (
-    	<div className='footer'><Container links={this.state}/></div>
+    	<div className='footer'><Container links={this.state.links}/></div>
     	)}
   });
 
