@@ -8,11 +8,14 @@ var App = React.createClass({
     return (
     	<div>
   		<Header/>
-  		<Content/>
+{/*  	 <Content/> */}
   		<Footer/>
   		</div>
     );
-  }
+  },
+    	componentWillMount:function(){
+		console.log('dsa');
+	}
 });
 
 module.exports =  App;
