@@ -9,7 +9,6 @@ var Menu = React.createClass({
 			className: React.PropTypes.oneOf(['list1','list2','list3'])
   }))
 	},
-
   render: function() {
   	return (
 				<ul className="menu" >
@@ -26,10 +25,7 @@ var Menu = React.createClass({
 				</li>
 	   		</ul>
   		    );
-  },
-  	componentWillMount:function(){
-		console.log('hello');
-	}
+  }
 });
 
 module.exports =  Menu;
