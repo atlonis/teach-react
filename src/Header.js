@@ -7,22 +7,22 @@ var Header = React.createClass({
 		 	 links :[
   	{
   		title: 'asdsa',
-  		href:'',
+  		href:'#',
   		className:'list1'
   	},
   	{
   		title: 'dsad',
-  		href:'',
+  		href:'#',
   		className:'list2'
   	},
   	{
   		title: 'Сourses',
-  		href:'',
+  		href:'#',
   		className:'list3'
   	},
-  	 {
+  	{
   		title: 'GO Pro',
-  		href:'',
+  		href:'#',
   		classNamelist:'list4',
   		classNamebutton:'pro-button',
   		classNameicon:'icon',

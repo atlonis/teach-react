@@ -12,7 +12,7 @@ var Menu = React.createClass({
 	},
   render: function() {
   	return (
-				<ul className="menu" >
+				<ul className="menu"  >
 				  {this.props.links.map((item,index)=>{
 				  if (index==3) return <MenuitemGoPRO item={item} key={index}/>
      	  	return	<Menuitem item={item} key={index} />

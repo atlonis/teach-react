@@ -7,22 +7,22 @@ var Footer = React.createClass({
 		  	  	  links:[
   	{
   		title: 'Привет',
-  		href:'',
+  		href:'#',
   		className:'list1'
   	},
   	{
   		title: 'КАК',
-  		href:'',
+  		href:'#',
   		className:'list2'
   	},
   	{
   		title: 'ДЕЛА',
-  		href:'',
+  		href:'#',
   		className:'list3'
   	},
   	{
   		title: 'GO Pro',
-  		href:'',
+  		href:'#',
   		classNamelist:'list4',
   		classNamebutton:'pro-button',
   		classNameicon:'icon',
