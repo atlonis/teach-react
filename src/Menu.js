@@ -1,5 +1,6 @@
 var React = require('react') ;
 var Menuitem = require('./Menuitem') ;
+var MenuitemGoPRO = require('./MenuitemGoPRO') ;
 
 var Menu = React.createClass({
 	propTypes:{
@@ -13,16 +14,9 @@ var Menu = React.createClass({
   	return (
 				<ul className="menu" >
 				  {this.props.links.map((item,index)=>{
+				  if (index==3) return <MenuitemGoPRO item={item} key={index}/>
      	  	return	<Menuitem item={item} key={index} />
        	})}
-				 <li className="list4">
-					<a href="">
-						<span className="pro-button">
-							<span className="icon"></span>
-							<span className="pro">Go Pro</span>
-						</span>
-					</a>
-				</li>
 	   		</ul>
   		    );
   }

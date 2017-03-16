@@ -19,6 +19,14 @@ var Footer = React.createClass({
   		title: 'ДЕЛА',
   		href:'',
   		className:'list3'
+  	},
+  	{
+  		title: 'GO Pro',
+  		href:'',
+  		classNamelist:'list4',
+  		classNamebutton:'pro-button',
+  		classNameicon:'icon',
+  		classNametitle:'pro'
   	}
   	]
   }},

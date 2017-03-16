@@ -12,10 +12,7 @@ var App = React.createClass({
   		<Footer/>
   		</div>
     );
-  },
-    	componentWillMount:function(){
-		console.log('dsa');
-	}
+  }
 });
 
 module.exports =  App;
