@@ -9,7 +9,7 @@ render: function() {
 			<div  className="cont-logo">
 				<a  className="wrap-logo" href=""><span  className="logo"></span><span  className="logo-text"></span></a>
 			</div>
-				<Menu links={this.props.links}/>
+				<Menu links={this.props.links} count={this.props.count} handleclick={this.props.handleclick}/>
 		</div>
     );
   }

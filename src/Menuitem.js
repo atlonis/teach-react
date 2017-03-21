@@ -1,15 +1,10 @@
 var React = require('react') ;
+var MenuitemGoPro = require('./MenuitemGoPRO') ;
 
 var Menuitem = React.createClass({
-		getInitialState() {
-			return{
-				count:0
-			}
-		},
-		handleclick(){
-			this.setState({count: this.state.count +1});
-			alert(this.state.count);
-		},
+	handleclick(){
+		this.props.handleclick(this.props.item.id)
+	},
 	  render: function() {
     return (
     	<li  className={this.props.item.className}>
