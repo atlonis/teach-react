@@ -6,6 +6,7 @@ var MenuitemGoPro = React.createClass({
 		console.log(this.props.item);
 	},
 	  render: function() {
+	  	console.log('[MenuGOPRO] render');
     return (
     	<li  className={this.props.item.classNamelist}>
     		<a href={this.props.item.href} onClick={this.handleclick}>

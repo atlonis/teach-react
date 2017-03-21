@@ -4,7 +4,9 @@ var Footer = require('./Footer') ;
 var Content = require('./Content') ;
 
 var App = React.createClass({
+
   render: function() {
+  				console.log('[App] render');
     return (
     	<div>
   		<Header/>

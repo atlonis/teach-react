@@ -4,6 +4,7 @@ var Menu = require('./Menu') ;
 var Container = React.createClass({
 
 render: function() {
+			console.log('[Container] render');
     return (
 		<div  className="Container" >
 			<div  className="cont-logo">

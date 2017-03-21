@@ -44,6 +44,7 @@ var Header = React.createClass({
 		this.setState({count: newCount});
 	},
   render: function() {
+  	console.log('[Header] render');
     return (
     	<div className='header'><Container links={this.state.links} handleclick={this.handleclick} count={this.state.count}/></div>
     	)}
